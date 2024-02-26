@@ -1,0 +1,117 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.page{
+    display: flex;
+    height: 100vh;
+
+}
+
+/*Gauche*/
+.navbar-lateral{
+    width: 50vh;
+    background-color: rgb(88, 123, 215);
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    display: flex;
+
+}
+
+.navbar-lateral ul{
+    margin-right: 40px;
+}
+
+.navbar-lateral ul li{
+    margin: 20px 0;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 17px;
+    width: 175px;
+    text-align: center;
+    /*background-color: white;*/
+    color: white;
+}
+
+
+.active {
+    background-color: white;
+}
+#on{
+    color: black;
+}
+.navbar-lateral ul li a{
+    color: white;
+}
+
+/*Responsive*/
+/*.menu-hamberger{
+    width: 50px;
+    position:absolute;
+    top: 17px;
+    right: 17px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-lateral{
+        display: none;
+    }
+}
+
+/*DROIT*/
+.title{
+    /*width: 200px;
+    height: 50px;*/
+    position: absolute;
+    left: 60vh;
+    top: 6.5%;
+    /*background-color: red;
+    margin: 10px;*/
+}
+.title h1{
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*margin: 10px;*/
+    padding: 0 150px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    /*width: 200px;*/
+    
+}
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin: 15px;
+}
+.form-field input {
+    width: 500px;
+    height: 35px;
+    margin-left: 10px;
+    border: 2px solid rgb(88, 123, 215);
+    border-radius: 5px;
+
+}
+
+
+.bouton{
+    background-color: rgb(88, 123, 215);
+    border: 1px solid rgb(56, 80, 141);
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px 0;
+}
